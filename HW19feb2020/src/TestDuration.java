@@ -7,7 +7,7 @@ public class TestDuration {
         int result = 0;
         long startTime = System.currentTimeMillis();
         System.out.println();
-        for (int i=0; i<5000; i++){
+        for (int i=0; i<9000; i++){
             result +=i;
         }
         long endTime = System.currentTimeMillis();
