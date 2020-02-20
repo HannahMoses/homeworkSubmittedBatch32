@@ -1,16 +1,17 @@
 public class TestDuration {
-
-
-
-//homework 
 //homework to write a Java program to calculate duration taken to run this program estimate efficiency
 /*
-
 ===>  Experimenting with git pull command <======
- 
-  
-Fill this comment space  */
-//:q
-//:wq  
+ */
+    public static void main(String[] args) {
+        int result = 0;
+        long startTime = System.currentTimeMillis();
+        System.out.println();
+        for (int i=0; i<5000; i++){
+            result +=i;
+        }
+        long endTime = System.currentTimeMillis();
+        System.out.println("Total time for String " +(endTime - startTime));
+}
 
 }
